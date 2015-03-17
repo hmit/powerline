@@ -51,7 +51,8 @@
                                      (powerline-narrow face1 'l)
                                      (powerline-raw " " face1)
                                      (funcall separator-left face1 face2)
-                                     (powerline-vc face2 'r)))
+                                     (powerline-vc face2 'r)
+                                     (powerline-raw system-name)))
                           (rhs (list (powerline-raw global-mode-string face2 'r)
                                      (funcall separator-right face2 face1)
 				     (unless window-system
